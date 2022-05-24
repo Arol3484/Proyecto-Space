@@ -1,0 +1,460 @@
+body {
+
+   background-image: url(/Images/_21_space-engineers-wallpaper_Space-engineers-can-create-some-real-neato-desktop-wallpaper-.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;   
+   background-size: cover;   
+   padding: 0rem;   
+   margin: 0rem;
+   
+}
+
+img {
+    max-width: 100%;
+}
+ 
+/*------------- MENUS - HEADER --------------*/
+.header__menus {
+    padding-left: 2rem;   
+    padding-right: 2rem;
+    background-color: #000000;
+    height: 2.5rem;
+    max-width: 50rem;
+    border-bottom-left-radius: 1rem;    
+    border-bottom-right-radius: 1rem;    
+    /* position: fixed;  */
+    z-index: 1;    
+    left: 0rem;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 900;    
+    font-family: 'Electrolize', sans-serif;    
+}
+
+.header__link {
+
+    background-color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #858383;
+    font-family: 'Electrolize', sans-serif;
+    transition: 0.8s;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    flex-grow: 1;    
+
+}
+
+.header__link:hover {
+    color: #a29201;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.header__link:active {
+    transition-duration: 0s;
+    color: #04b18f;
+}
+
+.logo {
+    height: 2.50rem;
+}
+
+/* .header__btn {
+
+    background-image: url(/Images/spacelogo.jpeg);
+    height: 2.50rem;
+    width: 7.30rem;
+    background-size: cover;
+    border-color: #000000;
+    transition: all 0.8s;
+    border-radius: 1rem;
+}
+
+.header__btn:hover {
+
+    background-image: url(/Images/spacelogohover.jpeg);
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;    
+} */
+
+.header__bar {
+
+    visibility: hidden;
+    padding-left: 1rem;    
+    padding-right: 1rem;
+    background-color: #000000;
+    height: 2.5rem;
+    width: 17rem;
+    border-bottom-left-radius: 1rem;    
+    border-bottom-right-radius: 1rem;    
+    position: fixed; 
+    z-index: 1;    
+    right: 0rem;
+    top: 0rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.header__user {        
+    border-radius: 0.3rem;
+    width: 6rem;
+}
+        
+
+    
+.header__pass {
+    border-radius: 0.3rem;
+    width: 6rem;
+}
+
+.header__logbtn {
+
+    background-color: #858383;
+    font-size: 1rem;
+    font-weight: 1000;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.header__logbtn:hover {
+
+    background-color: #a29201;
+}
+
+    
+main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* --------------- NEWS ----------------*/
+.news-title {
+    text-align: center;
+    color: #a29201;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+.main__news {  
+    border-radius: 2rem;
+    display: flex;        
+    padding: 1rem;
+    background-color: #1b1a1ad9;
+    width: 15rem;
+    height: 35rem;     
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-align: justify;
+    color: #858383;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;              
+}
+
+.main__news h2 {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline
+}
+.news__noticeb {
+
+    width: 224px;    
+    height: 126px;    
+    border-radius: 1rem;    
+}
+
+/* -------------------- SHOP ----------------- */
+
+.shop-fondo {
+    
+    /* background-color: #891313e8; */
+    width: auto;
+    height: auto;     
+    display: flex;     
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;    
+}
+    
+
+ 
+.shipsell {
+    
+    height: 17rem;
+    width: 27rem; 
+    background-color: #1b1a1a89;    
+    margin: 0.80rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    color: #858383;
+    flex-grow: 1;
+    text-align: center;
+    transition:all 1s; 
+
+} 
+
+ 
+.shipsell img {
+
+    height: 168px;
+    width: 281px;
+    border-radius: 1rem;
+    /* margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem; */
+    max-width: 100%;
+}
+ 
+.shop-shipsell-text {
+ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    margin: 1rem;
+     
+}
+ 
+.shop-shipsell-text h3 {
+
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #a29201;
+}
+
+.shop-shipsell-text p {
+
+     margin-top: 0.3rem;
+     margin-bottom: 0.3rem;
+}
+
+.shop-shipsell-text input {
+
+    background: none;
+    border: 0ch;
+    color: #858383;
+    font-size: 1.5rem;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    
+}
+
+.shipsell:hover {
+
+    background-color: #4d4500f1 ;
+    transform: scale(1.02);
+         
+}
+/* -----------REGISTER-------------*/
+
+.register {
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 2rem;
+    display: flex;        
+    padding: 1rem;
+    background-color: #1b1a1a89;
+    width: 15rem;
+    height: 30rem;     
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #04b18f;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: auto;   
+}
+
+.register input {
+    width: 200px;
+    height: 25px;
+    margin: auto;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+#form-enviar {
+    font-size: 1.3rem;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    border-radius: 1rem;
+    background-color: #04b18f;
+    border: none;
+    
+    
+}
+
+#form-enviar:hover {
+    transition: 0.8s;
+    transform: scale(110%);
+}
+
+#form-enviar:active {
+    transition: 0s;
+    background-color: #a29201;
+
+}
+
+
+/* -------------- MEDIA --------------*/
+
+
+@media only screen and (max-width: 664px) {
+
+header {    
+    font-display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;   
+}
+
+main, .main-news {
+    display: block;    
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+body {
+    max-width: 100vw;
+    background-image: url(/Images/_21_space-engineers-wallpaper_Space-engineers-can-create-some-real-neato-desktop-wallpaper-.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+    background-size: cover;
+    object-position: right left;    
+    padding: 0rem;    
+    margin: 0rem;     
+}
+
+/* -----------MENUS - MEDIA-------------*/
+
+.header__menus {
+    display: block;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    padding: 0rem;    
+}
+
+.header__link {
+    align-items: center;
+    align-content: center;
+    display: block;
+    margin: 0;
+    text-align: center;    
+    border-radius: 0%;    
+}
+
+/* -----------NEWS - MEDIA-------------*/
+.news-title {
+    margin-top: 15rem;
+}
+.main__news {
+    margin: auto;
+    margin-top: 2rem;    
+}
+
+/* -----------SHOP - MEDIA-------------*/
+
+.shop-shipsell-text p  {
+    display: none;
+    margin-right: 0.5rem;
+    
+}
+
+.shipsell {
+    /* transform: scale(0.5); */
+    margin-left: 0rem ;
+    margin-right: 0rem;
+    /* width: 19rem;
+    height: 21rem; */
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 80vw;
+    height: auto;    
+}
+
+.shop-fondo {
+    margin-top: 5rem;
+    display: block;    
+}
+
+/* -----------REGISTER - MEDIA-------------*/
+
+.register {
+    margin-top: 18rem;
+}
+
+
+}
+
+@media only screen and (max-width: 1439px) {
+
+.main-news {
+    display: block;
+}
+
+.main__news {
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80vw;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.news__noticeb {
+    margin: auto;
+}
+
+}
+ 
+
+
+    
+        
+
+
+
+    
+        
+    
+    
+
